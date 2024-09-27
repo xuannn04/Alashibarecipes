@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+.rating {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.stars {
+    color: #f8ce0b;
+    margin-right: 10px;
+}
+.reviews, .photos {
+    color: #0066cc;
+    text-decoration: none;
+    margin-right: 15px;
+}
+.meta {
+    font-size: 0.9em;
+    color: #666;
+    margin-bottom: 20px;
+}
+.actions {
+    margin-bottom: 20px;
+}
+.actions button {
+    margin-right: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.save-btn {
+    background-color: #d32f2f;
+    color: white;
+    border: none;
+}
+.main-image {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+.recipe-info {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    background-color: #fff3e0;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.recipe-info div {
+    display: flex;
+    flex-direction: column;
+}
+.recipe-info h3 {
+    margin: 0;
+    font-size: 1em;
+}
+.recipe-info p {
+    margin: 5px 0 0;
+}
+.nutrition-link {
+    color: #0066cc;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 20px;
+}
+h2 {
+    font-size: 1.8em;
+    margin-top: 30px;
+}
+ul, ol {
+    padding-left: 20px;
+}
+li {
+    margin-bottom: 10px;
+}

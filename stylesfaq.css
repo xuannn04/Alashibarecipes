@@ -1,0 +1,53 @@
+@import url('stylesindex.css');
+
+
+.accordion .card {
+    border: none;
+    margin-bottom: 1rem;
+}
+
+.accordion .card-header {
+    background-color: #fff;
+    border: none;
+    padding: 0;
+}
+
+.accordion .btn-link {
+    color: #FF6F00;
+    font-weight: bold;
+    text-decoration: none;
+    width: 100%;
+    text-align: left;
+    padding: 1rem;
+}
+
+.accordion .btn-link:hover,
+.accordion .btn-link:focus {
+    color: #e65c00;
+    text-decoration: none;
+}
+
+.accordion .card-body {
+    background-color: #f9f9f9;
+    border-top: 1px solid #eee;
+}
+
+main h1 {
+    color: #FF6F00;
+}
+
+.btn-primary {
+    background-color: #FF6F00;
+    border-color: #FF6F00;
+}
+
+.btn-primary:hover {
+    background-color: #e65c00;
+    border-color: #e65c00;
+}
+
+@media (max-width: 768px) {
+    .accordion .btn-link {
+        font-size: 0.9rem;
+    }
+}
